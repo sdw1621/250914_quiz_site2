@@ -1,0 +1,44 @@
+.custom-blue-gradient {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    border: none;
+}
+
+.custom-blue-gradient:hover {
+    background: linear-gradient(45deg, #0056b3, #0099cc);
+}
+
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.list-group-item-action {
+    transition: all 0.2s ease-in-out;
+}
+
+.list-group-item-action:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 퀴즈 답변 선택 시 색상 */
+.list-group-item-action input[type="radio"]:checked + span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* 플래시 메시지 스타일 */
+.alert {
+    border-radius: .5rem;
+}
+
+.quiz-question-box {
+    background-color: #e0f2f7; /* 연한 하늘색 배경 */
+    border: 1px solid #b3e5fc; /* 테두리 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.quiz-question-box p {
+    color: #01579b; /* 짙은 파란색 텍스트 */
+    font-weight: bold;
+}
